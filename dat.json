@@ -1,0 +1,83 @@
+[{"data_obj":[
+    {"type":"5",
+        "id":"style",
+    "title":"Style",
+    "jscode":"document.getElementById('header').style.color='red'",
+    "jscode5":"document.getElementById('header').style.color",
+    "jqcode":"$('#header').css('color','red')",    
+    "jqcode5":"$('#header').css('color')"    
+    },
+    {"type":"3",
+        "id":"class",
+    "title":"Class",
+    "jscode":"document.getElementById('#header').classList.add('active')",
+    "jscode2":"document.getElementById('#header').classList.remove('active')",
+    "jqcode":"$('#header').addClass('active')" ,   
+    "jqcode2":"$('#header').removeClass('active')"    
+    },
+    {"type":"6",
+        "id":"event",
+    "title":"Event",
+    "jscode":"document.getElementById('#header').addEventListener('click',function(){})",
+    "jscode6":"document.getElementById('#header').onclick=function(){}",
+    "jqcode":"$('#header').on('click', function(){})",    
+    "jqcode6":"$('#header').click(function(){})"    
+    },
+    {"type":"4",
+        "id":"attr",
+    "title":"Attribute",
+    "jscode":"document.getElementsByTagName('img').setAttribute('src', 'imges/pic.jpg')",
+    "jscode4":"document.getElementsByTagName('img').getAttribute('src', 'imges/pic.jpg')",
+    "jqcode":" $('img').attr('src', 'imges/pic.jpg')", 
+    "jqcode4":" $('img').attr('src')"    
+    },{"type":"1",
+        "id":"ajax",
+    "title":"Ajax",
+    "jscode":"let xhr=new XMLHttpRequest\n xhr.open('Get','')\n xhr.onload = function(){}\n xhr.send()",
+    "jscode1":"let xhr=new XMLHttpRequest\n xhr.open('POST', 'demo_post.asp', true)\n xhttp.send();",
+    "jqcode":"$('#header').load('demo_test.txt', function(responseTxt, statusTxt, xhr){}",    
+    "jqcode1":"  $.post('demo_test.asp', function(data, status){alert('Data: ' + data + 'Status: ' + status);});"}
+    ]},
+    {"data_method":[
+        {
+        "id_m":"1",
+        "obj_m":"Dom",
+        "js_m":"innerHtml",
+        "jq_m":"html()",
+        "desc_m":"set/get html code"
+        },
+        {
+        "id_m":"2",
+        "obj_m":"Dom",
+        "js_m":"innerText",
+        "jq_m":"text()",
+        "desc_m":"set/get text"
+        },
+        {
+        "id_m":"3",
+        "obj_m":"Dom",
+        "js_m":"parentElement",
+        "jq_m":"parent()",
+        "desc_m":"Traversing Methods"
+        },
+        {
+        "id_m":"4",
+        "obj_m":"Dom",
+        "js_m":"children",
+        "jq_m":"children()",
+        "desc_m":"Traversing Methods"
+        }
+    ]
+    }
+
+]
+
+
+
+
+
+
+
+
+
+

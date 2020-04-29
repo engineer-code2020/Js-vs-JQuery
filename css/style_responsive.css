@@ -1,0 +1,9 @@
+
+@media  screen and (max-width:720px){
+    html{font-size: 12px;}
+    #header .overlay{padding: 40px 0 0 0;}
+    }
+@media  screen and (max-width:400px){
+    html{font-size: 10px;}
+    #header .overlay{padding: 40px 0 0 0;}
+    }
